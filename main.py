@@ -1,9 +1,9 @@
-firstNum  = int(input("Enter the first side: "))
-secondNum = int(input("Enter the second side: "))
-thirdNum  = int(input("Enter the third side: "))
+sideA  = int(input("Enter the first side: "))
+sideB = int(input("Enter the second side: "))
+sideC  = int(input("Enter the third side: "))
 
 print("The triangle is", end=" ")
-if firstNum == secondNum == thirdNum:
+if sideA == sideB == sideC:
     print("equilateral")
 else:
     print("not equilateral")
